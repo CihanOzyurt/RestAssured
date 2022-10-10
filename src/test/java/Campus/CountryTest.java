@@ -123,7 +123,7 @@ public class CountryTest {
     {
         given()
                 .cookies(cookies)
-                //.pathParam("countryID", countryID)
+                //.pathParam("countryID", countryID)---
 
 //                .when()
 //                .delete("school-service/api/countries/{countryID}")
