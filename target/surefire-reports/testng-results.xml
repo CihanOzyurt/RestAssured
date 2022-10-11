@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Jenkins All Test Suite" duration-ms="8362" started-at="2022-10-11T10:35:57 EET" finished-at="2022-10-11T10:36:06 EET">
+    <groups>
+    </groups>
+    <test name="Main test" duration-ms="8362" started-at="2022-10-11T10:35:57 EET" finished-at="2022-10-11T10:36:06 EET">
+      <class name="Campus.CountryTest">
+        <test-method status="PASS" signature="loginCampus()[pri:0, instance:Campus.CountryTest@210366b4]" name="loginCampus" is-config="true" duration-ms="5733" started-at="2022-10-11T10:35:57 EET" finished-at="2022-10-11T10:36:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCampus -->
+        <test-method status="PASS" signature="createCountry()[pri:0, instance:Campus.CountryTest@210366b4]" name="createCountry" duration-ms="789" started-at="2022-10-11T10:36:03 EET" finished-at="2022-10-11T10:36:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCountry -->
+        <test-method status="PASS" signature="createCountryNegative()[pri:1, instance:Campus.CountryTest@210366b4]" name="createCountryNegative" duration-ms="410" started-at="2022-10-11T10:36:04 EET" depends-on-methods="Campus.CountryTest.createCountry" finished-at="2022-10-11T10:36:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCountryNegative -->
+        <test-method status="PASS" signature="updateCountry()[pri:2, instance:Campus.CountryTest@210366b4]" name="updateCountry" duration-ms="412" started-at="2022-10-11T10:36:04 EET" depends-on-methods="Campus.CountryTest.createCountry" finished-at="2022-10-11T10:36:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCountry -->
+        <test-method status="PASS" signature="deleteCountryById()[pri:3, instance:Campus.CountryTest@210366b4]" name="deleteCountryById" duration-ms="354" started-at="2022-10-11T10:36:05 EET" depends-on-methods="Campus.CountryTest.createCountry" finished-at="2022-10-11T10:36:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCountryById -->
+        <test-method status="PASS" signature="deleteCountryByIdNegative()[pri:0, instance:Campus.CountryTest@210366b4]" name="deleteCountryByIdNegative" duration-ms="310" started-at="2022-10-11T10:36:05 EET" depends-on-methods="Campus.CountryTest.deleteCountryById" finished-at="2022-10-11T10:36:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCountryByIdNegative -->
+        <test-method status="PASS" signature="updateCountryNegative()[pri:0, instance:Campus.CountryTest@210366b4]" name="updateCountryNegative" duration-ms="311" started-at="2022-10-11T10:36:05 EET" depends-on-methods="Campus.CountryTest.deleteCountryById" finished-at="2022-10-11T10:36:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCountryNegative -->
+      </class> <!-- Campus.CountryTest -->
+    </test> <!-- Main test -->
+  </suite> <!-- Jenkins All Test Suite -->
+</testng-results>
