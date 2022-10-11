@@ -87,7 +87,7 @@ public class CountryTest {
 
                         .then()
                         .log().body()
-                        .statusCode(409)
+                        .statusCode(400)
                         .body("message", equalTo("The Country with Name \""+countryName+"\" already exists."))
         ;
     }
